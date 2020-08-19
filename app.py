@@ -108,4 +108,4 @@ def perform_predict():
     return "this is result route"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
