@@ -3,11 +3,9 @@ import os
 import time
 from keras.models import model_from_json
 from pickle import dump,load
-from glob import glob
 import librosa
 import pandas as pd
 import numpy as np
-from pydub import AudioSegment,silence # for leading silence removal
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
